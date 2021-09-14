@@ -3,20 +3,21 @@ html {
 }
 
 body {
-    width: 100%; height: 100%;
+    width: 100%;
+    height: 100%;
     margin: 0;
-    padding: 10px;
+    padding: 1%;
     font-family: "Red Hat Display", sans-serif;
 }
 
 .card {
-    margin: 1% auto auto;
+    margin: auto;
     background-color: white;
     text-align: center;
     width: 450px;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 10px 5px grey;
+    box-shadow: 0 2px 50px hsl(224, 23%, 55%);
 }
 
 .cardTitle {
@@ -29,8 +30,66 @@ body {
     color: dimgrey;
 }
 
-.image {
+.cardImage {
     margin-top: -10px;
+}
+
+
+.offer {
+    background-color: hsl(225, 100%, 98%);
+    margin: 5%;
+    padding: 3%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.offerImage {
+    height: 100%;
+    flex-grow: 0;
+}
+
+.offerTexts {
+    margin-top: 1%;
+}
+
+.offerPrice {
+    padding: 0;
+    margin: 0;
+    color: dimgrey;
+}
+
+.offerName {
+    padding: 0;
+    margin: 0;
+}
+
+.offerChange {
+    font-weight: 900;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline purple;
+    color: purple;
+    margin-top: 3%;
+}
+
+.payment {
+    position: relative;
+    font-weight: 700;
+    font-size: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(50 0 200);
+    border-radius: 10px;
+    padding: 5% 20%;
+}
+
+.cancel {
+    border: solid black;
+    position: center;
+    display: block;
 }
 
 footer {
