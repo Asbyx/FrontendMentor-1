@@ -1,0 +1,40 @@
+html {
+    background-color: hsl(225, 100%, 94%);
+}
+
+body {
+    width: 100%; height: 100%;
+    margin: 0;
+    padding: 10px;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+    margin: 1% auto auto;
+    background-color: white;
+    text-align: center;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 10px 5px grey;
+}
+
+.cardTitle {
+    font-weight: 900;
+    color: rgb(50 50 50);
+}
+
+.cardText {
+    margin: 0 10%;
+    color: dimgrey;
+}
+
+.image {
+    margin-top: -10px;
+}
+
+footer {
+    overflow: no-display;
+    position: absolute;
+    bottom: 0;
+}
